@@ -60,14 +60,8 @@ The simulation incorporates:
 | File | Description |
 |------|-------------|
 | `OAS Clawback Analysis.R` | Full R simulation code with all logic and outputs |
-| `When to Claim OAS Balancing Benefits and Clawback Risks.pdf` | Final report summarizing methodology and findings |
+| `Balancing Benefits and Clawbacks: A Retirement Strategy Model.pdf` | Final report summarizing methodology and findings |
 | `README.md` | This documentation file |
-
----
-
-## 📄 Final Presentation
-
-📥 [Click here to download the project report (PDF)](./When%20to%20Claim%20OAS%20Balancing%20Benefits%20and%20Clawback%20Risks.pdf)
 
 ---
 
