@@ -1,4 +1,4 @@
-# 📊 OAS Strategy Simulation – Retirement Planning in R
+# OAS Strategy Simulation – Retirement Planning in R
 
 This project models optimal Old Age Security (OAS) withdrawal strategies for Canadian retirees using **72,000 Monte Carlo simulations**. It examines how account type, longevity, and market conditions influence the trade-off between **early OAS access** and **maximizing lifetime benefits** by deferring to age 70.
 
@@ -10,11 +10,11 @@ The simulation incorporates:
 - Regime-switching market returns
 - Both RRSP and TFSA withdrawal frameworks
 
-> ✅ Built entirely in **R**, with personalized strategy recommendations based on demographic and portfolio conditions.
+>  Built entirely in **R**, with personalized strategy recommendations based on demographic and portfolio conditions.
 
 ---
 
-## 🧠 Key Questions Explored
+## Key Questions Explored
 
 - When should retirees claim OAS — at age 65 or defer to age 70?
 - How do RRSP vs. TFSA withdrawals impact tax burden and OAS clawbacks?
@@ -23,7 +23,7 @@ The simulation incorporates:
 
 ---
 
-## 🔧 Methodology
+## Methodology
 
 - **Simulation engine:** R-based Monte Carlo with 2,000 simulations per condition
 - **Parameters:**  
@@ -39,23 +39,23 @@ The simulation incorporates:
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
-### 🏦 Account Type
+### Account Type
 - **TFSA**: Zero clawback risk. Delaying OAS to 70 always increases lifetime benefits.
 - **RRSP**: 80%+ of retirees face clawbacks due to higher taxable income. Early withdrawals may reduce exposure.
 
-### 👵 Longevity Effects
+### Longevity Effects
 - Long-lived retirees benefit more from deferral (esp. women).
 - Shorter-lived retirees see minimal gain from deferring due to limited years to enjoy higher payments.
 
-### 📉 Sequence of Returns
+### Sequence of Returns
 - **Negative early returns**: Lower taxable withdrawals → less clawback → deferral to 70 is ideal.
 - **Positive early returns**: Larger RRSP growth → higher mandatory withdrawals → clawbacks increase → deferring may backfire.
 
 ---
 
-## 📂 Project Files
+## Project Files
 
 | File | Description |
 |------|-------------|
@@ -65,7 +65,7 @@ The simulation incorporates:
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - R (base R, tidyverse, dplyr, ggplot2)
 - Statistical simulation & data visualization
